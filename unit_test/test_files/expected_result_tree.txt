@@ -1,0 +1,37 @@
+test_file.py
+	+--ast
+	+--numpy
+	+--sqlite3
+	+--sys
+		o[usage][alias: None][line: 79]qapp = QtWidgets.QApplication(sys.argv)
+	+--pathlib
+	+--package.sub_package_2.module_2_1
+		o[usage][alias: m21][line: 85]modObj1 = m21.dummy_2_1_1()
+		o[usage][alias: m21][line: 88]modFunc1 = m21.func_2_1_3()
+	+--package.sub_package_3.module_3_1
+		+--package.sub_package_2.module_2_2
+		+--package.sub_package_2.module_2_3
+		+--package.sub_package_3.module_3_2
+		+--package.sub_package_3.module_3_3
+	+--tempfile
+		o[usage][alias: TemporaryDirectory][line: 91]with TemporaryDirectory() as tmpdir:
+	+--PyQt5.QtWidgets
+		o[usage][alias: None][line: 61]self.main = QtWidgets.QWidget()
+		o[usage][alias: None][line: 62]self.sub1 = QtWidgets.QLabel(text)
+		o[usage][alias: None][line: 63]self.layout = QtWidgets.QGridLayout(self.main)
+		o[usage][alias: None][line: 79]qapp = QtWidgets.QApplication(sys.argv)
+	+--PyQt5.QtGui
+	+--PyQt5.QtCore
+		o[usage][alias: None][line: 56]self.timer = QtCore.QTimer(self)
+		o[usage][alias: None][line: 65]self.layout.addWidget(self.sub1,0,0,QtCore.Qt.AlignCenter)
+	+--package.sub_package_1.module_1_2
+	+--os
+	+--math
+	+--package.sub_package_1.module_1_1
+		o[usage][alias: None][line: 86]modObj2 = module_1_1.dummy_1_1_2()
+		o[usage][alias: None][line: 89]modFunc2 = module_1_1.func_1_1_2()
+		+--package.sub_package_1.module_1_2
+		+--package.sub_package_1.module_1_3
+		+--package.sub_package_2.module_2_2
+			o[usage][alias: m22][line: 41]dummyObj1 = m22.dummy_2_2_1()
+		+--package.sub_package_2
